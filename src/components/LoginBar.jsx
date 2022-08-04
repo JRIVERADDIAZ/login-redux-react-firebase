@@ -4,12 +4,10 @@ import { useDispatch } from 'react-redux'
 import { IconContext } from 'react-icons';
 
 import { AiFillChrome } from 'react-icons/ai';
-import { BsFacebook } from 'react-icons/bs';
-import { BsGithub } from 'react-icons/bs';
+import { BsFacebook, BsGithub } from 'react-icons/bs';
 
 import '../styles/login-bar-icons.css'
-import { startGoogleLogin } from '../actions/auth'
-import { startLoginWithGithub } from '../actions/auth';
+import { startGoogleLogin, startLoginWithGithub } from '../actions/auth'
 
 const LoginBar = () => {
 
