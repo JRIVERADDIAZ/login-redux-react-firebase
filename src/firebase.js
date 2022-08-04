@@ -1,5 +1,3 @@
-import 'firebase/firestore'
-import 'firebase/app'
 
 import { initializeApp } from 'firebase/app'
 import { getFirestore } from 'firebase/firestore'
@@ -7,7 +5,7 @@ import { GoogleAuthProvider, GithubAuthProvider } from 'firebase/auth'
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDYL5wG_2DUEGOK9vfQRmh7B7S_7U1LRPE",
+    apiKey: "AIzaSyDYL5wG_2DUEGOK9vfQRmh7B7S7U1LRPE",
     authDomain: "react-reducer-app-75782.firebaseapp.com",
     projectId: "react-reducer-app-75782",
     storageBucket: "react-reducer-app-75782.appspot.com",
@@ -16,7 +14,7 @@ const firebaseConfig = {
     measurementId: "G-JXL1YTY7F8"
 }
 
-const app = initializeApp(firebaseConfig)
+export const app = initializeApp(firebaseConfig)
 
 const db   = getFirestore()
 

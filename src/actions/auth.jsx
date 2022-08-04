@@ -30,7 +30,6 @@ export const startLoginEmailPassword = (email, password) => {
                 console.log(err.code, err)
             }
             )
-        return
     }
 }
 
@@ -47,7 +46,6 @@ export const startRegisterWithEmailPassword = (email, password, name) => {
                 console.log(err)
             }
             )
-        return
     }
 
 }
