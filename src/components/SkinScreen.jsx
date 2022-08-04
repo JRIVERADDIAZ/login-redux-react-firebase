@@ -44,15 +44,16 @@ const SkinScreen = () => {
         <>
             <Routes>
                 <Route 
-                 index
+                 path='/'
                  element={<Login />} 
                 />
                 <Route 
-                path='DevPrueba'
+                path='/DevPrueba'
                 element={
                 <PrivateRoute  user={ isLogged }>
                     <DevPrueba /> {/* this route will be private & will be a new route wich allows to gain acces to tha app menu --> */}
-                </PrivateRoute>} />
+                </PrivateRoute>} />}
+
                 <Route path='*' element={<NoEncontrado />} /> {/* this route will be public */}
             </Routes>
         </>

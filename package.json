@@ -1,6 +1,5 @@
 {
   "name": "redux-version-anterior",
-  "homepage": "https://JRIVERADDIAZ.github.io/login-redux-react-firebase",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,6 +44,7 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://jriveraddiaz.github.io/login-redux-react-firebase",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
