@@ -1,0 +1,251 @@
+.warning-advisor {
+    height: 100%;
+    width: 100%;
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 0px -37px;
+}
+
+.warning-container {
+    background-color: #ffff;
+    height: 320px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.warning-container-error {
+    background-color: #ffff;
+    height: 246px;
+    width: 481px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.box-warning {
+    height: 145px;
+    width: 370px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: -24px;
+}
+
+.box-warning-error {
+    height: 145px;
+    width: 370px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-top: -27px;
+}
+
+
+.box-warning-sign-circle-exclamation {
+    height: 96px;
+    width: 96px;
+    background-color: rgb(255 250 225);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-warning-sign-circle {
+    height: 96px;
+    width: 96px;
+    background-color: rgba(39, 174, 96, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.12;
+}
+
+/* exclamation sign advisor */
+
+.box-warning-exclamation-sign {
+    color: rgba(255, 217, 18, 1);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.box-warning-cross-sign {
+    color: rgb(198 25 25);
+    z-index: 3;
+    position: absolute;
+    transform: rotate(45deg);
+    font-size: 100px;
+    font-weight: bold;
+    font-family: fangsong;
+}
+
+.box-warning-checkmark-sign {
+    color: rgba(39, 174, 96, 1);
+    z-index: 3;
+    position: absolute;
+    transform: rotate(4deg);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+/* advertising texts */
+
+.box-warning-text {
+    height: 115px;
+    width: 370px;
+    padding: 18px  0px;
+    margin: -8px 0px;
+}
+
+.box-warning-text span {
+    padding-bottom: 5px;
+}
+
+.warning-caution {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.warning-caution-advertising {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    margin: 13px 0px;
+}
+
+.button-box {
+    height: 50px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 0px;
+    margin: -12px;
+    display: flex;
+    align-items: space-between;
+}
+
+.button-box span {
+    box-shadow: #fdfdfd 0px 0px 0px 1px inset;
+    padding: 0px 5px;
+}
+
+.button-box .button-box-1 {
+    height: 44px;
+    width: 84px;
+    background-color: #efe68f;
+    border-radius: 3px;
+    border: none;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: rgba(110, 65, 226, 1);
+    border: 5px solid rgba(110, 65, 226, 1);
+    cursor: pointer;
+}
+
+.button-box .button-box-2 {
+    height: 44px;
+    width: 104px;
+    background-color: #fdfdfd;
+    border-radius: 3px;
+    border: none;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(110, 65, 226, 1);
+    border: 2px solid rgba(110, 65, 226, 1);
+    cursor: pointer;
+}
+
+.button-box-completado {
+    height: 40px;
+    width: 145px;
+    background-color: #efe68f;
+    border-radius: 3px;
+    border: none;
+    font-family: roboto;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(110, 65, 226, 1);
+    border: 5px solid rgba(110, 65, 226, 1);
+    cursor: pointer;
+}
+
+.exit-icon-container {
+    background-color: #ffff;
+    height: 55px;
+    width: 490px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: initial;
+    border-radius: 10px;
+    position: inherit;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.exit-icon-container-error {
+    background-color: #ffff;
+    height: 55px;
+    width: 481px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: initial;
+    border-radius: 10px;
+    position: inherit;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.exit-icon-circle {
+    height: 44px;
+    width: 44px;
+    background-color: rgba(110, 65, 226, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255 255 255);
+    font-size: 32px;
+    font-family: inherit;
+    margin: 11px;
+}
+
+.exit-icon-cross {
+    transform: rotateY(0deg) rotate(45deg);
+    cursor: pointer;
+}
+
+.exit-icon-cross::before {
+    transform: rotateY(0deg) rotate(45deg);
+    cursor: pointer;
+}
+
+.exit-icon-cross::after {
+    transform: rotateY(0deg) rotate(45deg);
+    cursor: pointer;
+}
