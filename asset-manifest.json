@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/login-redux-react-firebase/static/css/main.adcbca7f.css",
+    "main.js": "/login-redux-react-firebase/static/js/main.b04dedb0.js",
+    "index.html": "/login-redux-react-firebase/index.html",
+    "main.adcbca7f.css.map": "/login-redux-react-firebase/static/css/main.adcbca7f.css.map",
+    "main.b04dedb0.js.map": "/login-redux-react-firebase/static/js/main.b04dedb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adcbca7f.css",
+    "static/js/main.b04dedb0.js"
+  ]
+}
