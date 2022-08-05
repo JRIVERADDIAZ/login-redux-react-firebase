@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/login-redux-react-firebase/static/css/main.adcbca7f.css",
-    "main.js": "/login-redux-react-firebase/static/js/main.becb4179.js",
+    "main.js": "/login-redux-react-firebase/static/js/main.fc822bd6.js",
     "index.html": "/login-redux-react-firebase/index.html",
     "main.adcbca7f.css.map": "/login-redux-react-firebase/static/css/main.adcbca7f.css.map",
-    "main.becb4179.js.map": "/login-redux-react-firebase/static/js/main.becb4179.js.map"
+    "main.fc822bd6.js.map": "/login-redux-react-firebase/static/js/main.fc822bd6.js.map"
   },
   "entrypoints": [
     "static/css/main.adcbca7f.css",
-    "static/js/main.becb4179.js"
+    "static/js/main.fc822bd6.js"
   ]
 }
